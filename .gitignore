@@ -1,3 +1,5 @@
 paapi5-python-sdk/
 __pycache__
 *.egg
+consts.py
+nohup.out
