@@ -110,5 +110,5 @@ This is a generated telegram channel message example, you can edit the message s
 
 ## Authors
 
--Original Project: Samir Salman
--Modified by: Paolo Francioso
+- Original Project: Samir Salman
+- Modified by: Paolo Francioso
