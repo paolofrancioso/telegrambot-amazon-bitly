@@ -19,6 +19,7 @@ In order to use this bot you must complete the following steps:
 - Create an Amazon Affiliation (https://programma-affiliazione.amazon.it/)
 - Create a Bitly Account and get a valid API_KEY (You can safely remove this part if you don't want to beautify the links)
 - Put all of your keys (Amazon and Telegram API Keys) in the code, we are going to define how below
+- If you need to find host and region, please check latest documentation (currently here https://webservices.amazon.com/paapi5/documentation/common-request-parameters.html#host-and-region)
 - Rename the file consts_template.py in consts.py and set all your Keys
 
 - **Install packages**:
