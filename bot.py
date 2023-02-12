@@ -12,7 +12,8 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-# ********** Author: Samir Salman **********
+# ******  Author: Paolo Francioso ********
+# ****** Base Project: Samir Salman ******
 
 
 # Search keywords definition
