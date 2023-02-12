@@ -1,0 +1,537 @@
+Request received
+Request received
+Request received
+Request received
+Traceback (most recent call last):
+  File "bot.py", line 109, in <module>
+    run_bot(bot=bot, categories=categories)
+  File "bot.py", line 65, in run_bot
+    time.sleep(1)
+KeyboardInterrupt
+INFO:root:***** Requests Completed *****
+INFO:root:***** Sending posts to channel *****
+INFO:root:***** Sending posts to channel *****
+INFO:root:***** Sending posts to channel *****
+INFO:root:***** Sending posts to channel *****
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 534bdd8c-0938-4a7c-b27c-224a99c9de4e
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 8869466b-eac4-495f-90af-a0ddbebba5dc
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: d5640f1a-4a02-4d66-b85a-c897eb97512a
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 88095175-798d-4442-a2a6-7fd21ca225c0
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 156696a0-7faa-4913-9c28-2468cbc03c46
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: c20a7a58-94d2-4cd5-8fe0-69f2237b832d
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 0b24c8a6-5ff0-4532-bd33-e72954e35dde
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: c0fd60c0-caf3-4e09-9844-f113df94b961
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 56d56121-59fa-4319-a3e9-292cbde6acde
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: a5e74a37-e1a4-41c0-9950-74a3070681e3
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 160deeeb-1322-41ac-8ecc-1a28060e1980
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: a51edb24-75dd-48b9-a1c9-65ba40cad0f4
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 8df91b32-ae6b-4388-ab29-a7d0978bd404
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: e3f41a06-ea61-4443-a279-d331bc098053
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 56dc1d75-7a59-403f-adc8-15d304dc296b
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: c886d931-a54a-4b38-b2e1-45b1f516997c
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 792ab6cd-fb9c-404e-bc43-f126a32e5f28
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 3479f2b2-118e-4de8-b255-f3d828a85731
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: febc516a-d385-42a1-b078-affc24d6a588
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+842d28c8-29cf-4482-916c-5ff447afde21
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 6c88f884-4d8c-4b15-8220-ff7f5110e701
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: a88ed0f8-3796-40ea-a4dc-630d3741fe50
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 9734f357-bdb7-4204-8caf-17931cc362a2
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: f8c739d0-09e6-4110-9ae7-b7c6a8e26345
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: d75b38d2-aee5-403f-bf90-385b5cb020ac
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: d068297a-5d75-4e9e-8b40-55fb8726c2b0
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: b68d5f21-bb33-471a-a58a-f337bb1447e7
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: a41a4573-66de-4337-a7f4-503353c3cc8d
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: ad69869a-5f59-4717-83c7-013cc2ed4454
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: d643bf1a-07cd-43ba-9f4b-bcdceb362983
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 4fd00ed6-c410-4e1d-b927-2fe81e4b3717
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: d968951c-b64d-4075-aa73-5bffccc84576
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 94b9d1a6-d71b-4aa8-9bd4-17befc84d1f6
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: a49443bc-fed1-4ab8-aac2-5e173b092d04
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: c9e8776e-b553-4cdf-8122-6b6c1921d0d8
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: d672f827-080d-4657-9bab-07d3718f9c68
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 90f5d752-4d76-4890-9fd4-50de1d808c82
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: c198dd49-7a8d-4579-ba87-b64e9ef79fd2
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: b131a5c9-e556-42d8-8477-88e6f8b1e50c
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+Request ID: de17d61d-503d-4526-ad9c-fa5cc2cc217c
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 4dda6984-4d34-4b6f-8261-a7ce856889c2
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: d537f397-bb64-453e-89d6-7a44e1bbab7f
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 25c66eea-a3f1-438a-8b4c-5621433c2d1c
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: c29ad85a-2c7a-48d8-8379-840a7a93f1d3
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: bd1534dc-f80d-49ac-a7d9-28015dac180c
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: aee399a6-8aa8-4b1c-926d-17340dfafebc
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: f81c75ba-4f27-4346-b5c4-93a52f04fe67
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: f1b9181b-e61c-45c6-80ca-bfd00d8e5c13
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 14e219b0-1b77-4922-bf7c-1286eee45c66
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 660527b2-1021-499e-b903-84ae464a9673
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 7a093dcd-1fcd-4469-831f-aaabf050cd2b
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 8c5cf09c-1d5e-432e-98db-6fa060cd13f3
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 600c3237-2fb3-479b-ab39-6d11ccad201b
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 841aa626-fcda-4a5d-a18a-9c40e4727e49
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 14ec4d1c-27d8-44a3-abe1-371506bcd61a
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: c985b0bf-7af2-4939-92c3-2f3c19a2867c
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 626f912e-70dd-4ea7-9c40-fa275f418de8
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 34fb8641-a8f2-4fc3-9c9e-d596ff13bdf7
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 4ddb3cb4-decb-45f1-a941-d37cb2fe9558
+Error calling PA-API 5.0!
+Status code: 400
+Errors : INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+{"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 492b3b05-5e50-4213-8503-c2f3b1cdef18
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: eedad2ac-abf6-4d05-a5e1-dd90571c87fa
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 3aa4b823-7caf-4fd2-945e-8a7d660e99b5
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: dc3a050f-be6c-43df-a0f0-56701d2af827
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 54a12d0a-fed9-4454-8097-1a4a1973359c
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 2ca2dfb3-6ec4-4914-9d04-da6c7e4d8591
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: e355cdac-4d59-4dca-b0a3-da8ef10d8357
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 0545df6a-5af7-4f78-a2da-97fc15c83f07
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: e3c6d118-279a-4be4-8f82-e0e7cafce960
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: a9f3e6cf-3a8c-4c52-be27-6d0babcd9f32
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 0a6a5466-8c99-47e9-b09e-a02854d117bf
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 9ff7cb9d-0ddd-4401-b02f-bf7f0e39eff8
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 7bbcf706-2588-449a-828b-3d826b6e0245
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 6daea93c-f1fb-4ac9-b9aa-683d70e0c484
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: a394d715-c6fc-4a69-931e-d18a1764d656
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 2a32c338-e6af-4a91-993e-0ebe41a4596f
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 04e02c5f-1810-4a0a-b75f-43ce8bcfa73a
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 1a33818e-fb95-4682-9c8b-c7e9366881ad
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: 2b73e0a4-54f7-4ca3-b1d1-8d9056dd2429
+Error calling PA-API 5.0!
+Status code: 400
+Errors : {"__type":"com.amazon.paapi5#InvalidPartnerTagException","Errors":[{"Code":"InvalidPartnerTag","Message":"The partner tag is not mapped to a valid associate store with your access key AKIAIANWONMRTS4GKPLQ. Please visit associates central at https://programma-affiliazione.amazon.it/assoc_credentials/home"}]}
+Request ID: efd1cfee-eecf-4c28-9de1-d37766bcbb7e
+Error calling PA-API 5.0!
+Status code: 400
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:'NoneType' object is not iterable
+INFO:root:***** Requests Completed *****
+INFO:root:***** Sending posts to channel *****
+INFO:root:***** Requests Completed *****
+INFO:root:***** Sending posts to channel *****
+INFO:root:***** Requests Completed *****
+INFO:root:***** Sending posts to channel *****
+INFO:root:***** Sending posts to channel *****
+INFO:root:***** Sending posts to channel *****
+INFO:root:***** Sending posts to channel *****
+INFO:root:***** Sending posts to channel *****
+INFO:root:***** Sending posts to channel *****
+INFO:root:***** Sending posts to channel *****
+INFO:root:***** Sending posts to channel *****
+INFO:root:***** Sending posts to channel *****
+INFO:root:***** Requests Completed *****
+INFO:root:***** Sending posts to channel *****
+INFO:root:***** Requests Completed *****
+INFO:root:***** Sending posts to channel *****
+Traceback (most recent call last):
+  File "bot.py", line 5, in <module>
+    from create_messages import create_item_html
+  File "/var/PietrinoLibriBot/create_messages.py", line 3, in <module>
+    import bitly_api
+ModuleNotFoundError: No module named 'bitly_api'
+Traceback (most recent call last):
+  File "bot.py", line 5, in <module>
+    from create_messages import create_item_html
+  File "/var/PietrinoLibriBot/create_messages.py", line 3, in <module>
+    import bitly_api
+  File "/usr/local/lib/python3.8/dist-packages/bitly_api/__init__.py", line 1, in <module>
+    from bitly_api import Connection, BitlyError, Error
+ImportError: cannot import name 'Connection' from partially initialized module 'bitly_api' (most likely due to a circular import) (/usr/local/lib/python3.8/dist-packages/bitly_api/__init__.py)
+INFO:root:***** Requests Completed *****
+INFO:root:***** Inactive Bot, between  9AM and 24PM *****
+INFO:root:***** Inactive Bot, between  9AM and 24PM *****
+INFO:root:***** Inactive Bot, between  9AM and 24PM *****
+INFO:root:***** Inactive Bot, between  9AM and 24PM *****
+INFO:root:***** Inactive Bot, between  9AM and 24PM *****
+INFO:root:***** Inactive Bot, between  9AM and 24PM *****
+INFO:root:***** Inactive Bot, between  9AM and 24PM *****
+INFO:root:***** Inactive Bot, between  9AM and 24PM *****
+INFO:root:***** Inactive Bot, between  9AM and 24PM *****
+INFO:root:***** Inactive Bot, between  9AM and 24PM *****
+INFO:root:***** Inactive Bot, between  9AM and 24PM *****
+INFO:root:***** Inactive Bot, between  9AM and 24PM *****
+INFO:root:***** Inactive Bot, between  9AM and 24PM *****
