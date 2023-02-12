@@ -108,7 +108,7 @@ In order to mantain and improve the library consider to contribute:
 
 This is a generated telegram channel message example, you can edit the message structure on  ```create_messages.py``` code.
 
-## Author
+## Authors
 
-Original Project: Samir Salman
-Modified by: Paolo Francioso
+-Original Project: Samir Salman
+-Modified by: Paolo Francioso
