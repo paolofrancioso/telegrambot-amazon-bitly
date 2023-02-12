@@ -1,8 +1,7 @@
 # Amazon Offers Telegram Bot
 
-<img src="https://user-images.githubusercontent.com/33979978/109801185-70e74580-7c1e-11eb-847a-dbd6e09c21a3.png" alt="logo" width=300>
-
 This project is a Telegram Bot connected to a Telegram Channel that check Amazon offers and send them to your Channel.
+Original Project was from Samir Salman. This version adds a few options and has the Bitly functionalities embedded.
 
 ## Requirements
 
@@ -14,13 +13,13 @@ Now you can run the ```script.sh``` file from the terminal to install all depend
 
 ### MANUAL INSTALLER
 
-### **If you used the ```script.sh``` method you can skip the following step.**
-
 In order to use this bot you must complete the following steps:
 
 - Create a telegram bot (https://core.telegram.org/bots)
 - Create an Amazon Affiliation (https://programma-affiliazione.amazon.it/)
+- Create a Bitly Account and get a valid API_KEY (You can safely remove this part if you don't want to beautify the links)
 - Put all of your keys (Amazon and Telegram API Keys) in the code, we are going to define how below
+- Rename the file consts_template.py in consts.py and set all your Keys
 
 - **Install packages**:
 In the root of the project run:
@@ -92,22 +91,13 @@ for all the activity time. When all results have been sent, it restart his loop.
 ## Usage
 
 After cloning the repository, define all parameters in the code, install all packages and then start bot with command:
-```python bot.py``` or ```python3 bot.py```
+```python bot.py``` or ```python3 bot.py``` or ```nohup python3 bot.py &```
   
 ## Support 
 If you need support for the installation and usage of the library you can write to:
-- tgofferbot@gmail.com
+- freedogsconsulting@gmail.com
   
-In order to mantain and improve the library consider to contribute:
-  
-[![paypal](https://user-images.githubusercontent.com/33979978/187162516-5a6576a0-b44d-4e01-bcc6-fd0c262e683a.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7HWMJSGMCCTB6)
-
-## Message Structure
-
-![image](https://user-images.githubusercontent.com/33979978/109800731-dbe44c80-7c1d-11eb-8316-fd5275cb5b46.png)
-
-This is a generated telegram channel message example, you can edit the message structure on  ```create_messages.py``` code.
-
+ 
 ## Authors
 
 - Original Project: Samir Salman
