@@ -100,6 +100,7 @@ def run_bot(bot: telegram.Bot, categories: Dict[str, List[str]]) -> None:
 
         except Exception as e:
             logging.info(e)
+            break
 
 
 if __name__ == "__main__":
