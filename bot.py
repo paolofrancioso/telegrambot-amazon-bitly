@@ -65,7 +65,8 @@ def run_bot(bot: telegram.Bot, categories: Dict[str, List[str]]) -> None:
                                 items_full.extend(items)
                             
                             raise StopIteration
-                    
+                    counter = counter + 1
+
             except StopIteration: pass           
 
             logging.info(f'{5 * "*"} Requests Completed {5 * "*"}')
