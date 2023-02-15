@@ -1,7 +1,7 @@
 # Amazon Offers Telegram Bot
 
 This project is a Telegram Bot connected to a Telegram Channel that check Amazon offers and send them to your Channel.
-Original Project was from Samir Salman. This version adds a few options and has the Bitly functionalities embedded.
+Original Project was from Samir Salman. This version adds a few options and has the Bitly functionalities embedded. Furthermore it increase performances limiting the number of calls to Amazon.
 
 ## Requirements
 
@@ -17,7 +17,7 @@ In order to use this bot you must complete the following steps:
 
 - Create a telegram bot (https://core.telegram.org/bots)
 - Create an Amazon Affiliation (https://programma-affiliazione.amazon.it/)
-- Create a Bitly Account and get a valid API_KEY (You can safely remove this part if you don't want to beautify the links)
+- Create a Bitly Account and get a valid API_KEY (You activate this functionality in consts.py with parameter BITLY_ACTIVE = 1)
 - Put all of your keys (Amazon and Telegram API Keys) in the code, we are going to define how below
 - If you need to find host and region, please check latest documentation (currently here https://webservices.amazon.com/paapi5/documentation/common-request-parameters.html#host-and-region)
 - Rename the file consts_template.py in consts.py and set all your Keys
@@ -65,6 +65,8 @@ The bot is running in a while loop, you can define your favorite parameters for:
 - Pause time between messages
 - Amazon Search Categories
 - Search Keywords
+- Minimum rating
+- Minimum savings % (Amazon let it work only for some categories)
 
 
 
@@ -101,5 +103,4 @@ If you need support for the installation and usage of the library you can write 
  
 ## Authors
 
-- Original Project: Samir Salman
-- Modified by: Paolo Francioso
+- Paolo Francioso

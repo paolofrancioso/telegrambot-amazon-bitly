@@ -13,58 +13,57 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 # ******  Author: Paolo Francioso ********
-# ****** Base Project: Samir Salman ******
-
-
-# Search keywords definition
-"""
-A dictionary with {CATEGORY_NAME: [<LIST OF THE CATEGORY KEYWORDS>]}
-"""
-
-categories = {
-    "Books": [
-        "romanzo","narrativa"
-    ]
-}
-
 
 def is_active() -> bool:
     now = datetime.now().time()
     return MIN_HOUR < now.hour < MAX_HOUR
-    #return True
 
 def send_consecutive_messages(list_of_struct: List[str]) -> None:
-    bot.send_message(
-        chat_id=CHANNEL_NAME,
-        text=list_of_struct[0],
-        reply_markup=list_of_struct[1],
-        parse_mode=telegram.ParseMode.HTML,
-    )
-
-    bot.send_message(
-        chat_id=CHANNEL_NAME,
-        text=list_of_struct[2],
-        reply_markup=list_of_struct[3],
-        parse_mode=telegram.ParseMode.HTML,
-    )
-    return list_of_struct[4:]
+    for i in range(NUMBER_OF_MESSAGES):
+        row = i - 1
+        pointer_1 = 0 + i * 2
+        pointer_2 = 1 + i * 2
+        bot.send_message(
+            chat_id=CHANNEL_NAME,
+            text=list_of_struct[pointer_1],
+            reply_markup=list_of_struct[pointer_2],
+            parse_mode=telegram.ParseMode.HTML,
+        )
+    return_counter = pointer_2 + 1    
+    return list_of_struct[return_counter:]
 
 
 # run bot function
 def run_bot(bot: telegram.Bot, categories: Dict[str, List[str]]) -> None:
+    
+    categories=CATEGORIES
+    min_result=NUMBER_OF_MESSAGES*2 - 1
+    
     # start loop
     while True:
         try:
             items_full = []
+
+            # randomize categories and keywords
+            random.shuffle(categories)
+            
             # iterate over keywords
-            for category in categories:
-                for keyword in categories[category]:
-                    # iterate over pages
-                    for page in range(1, 10):
-                        items = search_items(keyword, category, item_page=page)
-                        # api time limit for another http request is 1 second
-                        time.sleep(1)
-                        items_full.extend(items)
+            try:
+                for category in categories:
+                    
+                    # shuffle keywords
+                    random.shuffle(categories[category])
+
+                    for keyword in categories[category]:
+                        # iterate over pages
+                        for page in range(1, MAX_PAGE_SEARCH):
+                            items = search_items(keyword, category, item_page=page)
+                            # api time limit for another http request is 1 second
+                            time.sleep(1)
+                            items_full.extend(items)
+                        
+                        raise StopIteration
+            except StopIteration: pass           
 
             logging.info(f'{5 * "*"} Requests Completed {5 * "*"}')
 
@@ -75,7 +74,7 @@ def run_bot(bot: telegram.Bot, categories: Dict[str, List[str]]) -> None:
             res = create_item_html(items_full)
 
             # while we have items in our list
-            while len(res) > 3:
+            while len(res) > min_result:
 
                 # if bot is active
                 if is_active():
@@ -107,4 +106,4 @@ if __name__ == "__main__":
     # Create the bot instance
     bot = telegram.Bot(token=TOKEN)
     # running bot
-    run_bot(bot=bot, categories=categories)
+    run_bot(bot=bot, categories=CATEGORIES)

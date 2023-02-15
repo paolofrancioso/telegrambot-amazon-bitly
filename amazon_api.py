@@ -15,14 +15,6 @@ def search_items(keywords, search_index="All", item_page=1):
         region=AMAZON_REGION,
     )
 
-    """ Specify the category in which search request is to be made """
-    """ For more details, refer: https://webservices.amazon.com/paapi5/documentation/use-cases/organization-of-items-on-amazon/search-index.html """
-
-    """ Specify item count to be returned in search result """
-    item_count = 20
-    min_saving_percent = 20
-    min_reviews_rating = 4
-
     """ Choose resources you want from SearchItemsResource enum """
     """ For more details, refer: https://webservices.amazon.com/paapi5/documentation/search-items.html#resources-parameter """
     search_items_resource = [
@@ -43,12 +35,12 @@ def search_items(keywords, search_index="All", item_page=1):
             partner_type=PartnerType.ASSOCIATES,
             keywords=keywords,
             search_index=search_index,
-            item_count=item_count,
+            item_count=ITEMS_PER_PAGE,
             resources=search_items_resource,
             item_page=item_page,
-            min_saving_percent=min_saving_percent,
-            condition="New",
-            min_reviews_rating=min_reviews_rating,
+            min_saving_percent=MIN_SAVING_PERCENT,
+            condition=ITEM_CONDITION,
+            min_reviews_rating=MIN_REVIEWS_RATING,
         )
     except ValueError as exception:
         print("Error in forming SearchItemsRequest: ", exception)
