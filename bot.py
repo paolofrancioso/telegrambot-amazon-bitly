@@ -36,7 +36,6 @@ def send_consecutive_messages(list_of_struct: List[str]) -> None:
 # run bot function
 def run_bot(bot: telegram.Bot, categories: Dict[str, List[str]]) -> None:
     
-    categories=CATEGORIES
     min_result=NUMBER_OF_MESSAGES*2 - 1
     
     # start loop
@@ -45,24 +44,28 @@ def run_bot(bot: telegram.Bot, categories: Dict[str, List[str]]) -> None:
             items_full = []
 
             # randomize categories and keywords
-            random.shuffle(categories)
+            randomizer = len(categories) - 1
+            random_array = random.randint(0, randomizer)
             
+            counter = 0
             # iterate over keywords
             try:
                 for category in categories:
-                    
-                    # shuffle keywords
-                    random.shuffle(categories[category])
-
-                    for keyword in categories[category]:
-                        # iterate over pages
-                        for page in range(1, MAX_PAGE_SEARCH):
-                            items = search_items(keyword, category, item_page=page)
-                            # api time limit for another http request is 1 second
-                            time.sleep(1)
-                            items_full.extend(items)
+                    if counter == random_array:
                         
-                        raise StopIteration
+                        # shuffle keywords
+                        random.shuffle(categories[category])
+
+                        for keyword in categories[category]:
+                            # iterate over pages
+                            for page in range(1, MAX_PAGE_SEARCH):
+                                items = search_items(keyword, category, item_page=page)
+                                # api time limit for another http request is 1 second
+                                time.sleep(1)
+                                items_full.extend(items)
+                            
+                            raise StopIteration
+                    
             except StopIteration: pass           
 
             logging.info(f'{5 * "*"} Requests Completed {5 * "*"}')
