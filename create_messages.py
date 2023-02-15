@@ -10,8 +10,9 @@ if BITLY_ACTIVE == 1:
 def create_item_html(items):
     response = []
     print(f'{5 * "*"} Creating post {5 * "*"}')
-
-    connection = bitly_api.Connection(access_token=ACCESS_TOKEN)
+    
+    if BITLY_ACTIVE == 1:
+        connection = bitly_api.Connection(access_token=ACCESS_TOKEN)
 
     counter = 0
 
