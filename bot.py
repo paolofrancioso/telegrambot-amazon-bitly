@@ -37,6 +37,7 @@ def send_consecutive_messages(list_of_struct: List[str]) -> None:
 def run_bot(bot: telegram.Bot, categories: Dict[str, List[str]]) -> None:
     
     min_result=NUMBER_OF_MESSAGES*2 - 1
+    res_except=NUMBER_OF_MESSAGES*2
     
     # start loop
     while True:
@@ -89,7 +90,7 @@ def run_bot(bot: telegram.Bot, categories: Dict[str, List[str]]) -> None:
 
                     except Exception as e:
                         logging.info(e)
-                        res = res[4:]
+                        res = res[res_except:]
                         continue
 
                     # Sleep for PAUSE_MINUTES
