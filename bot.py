@@ -63,7 +63,8 @@ def run_bot(bot: telegram.Bot, categories: Dict[str, List[str]]) -> None:
                                 items = search_items(keyword, category, item_page=page)
                                 # api time limit for another http request is 1 second
                                 time.sleep(1)
-                                items_full.extend(items)
+                                if items is not None:
+                                    items_full.extend(items)
                             
                             raise StopIteration
                     counter = counter + 1
