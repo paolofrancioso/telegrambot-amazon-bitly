@@ -20,7 +20,7 @@ def create_item_html(items):
     random.shuffle(items)
 
     # Iterate over items
-    if item is not None:
+    if items is not None:
         for item in items:
             # If item has an active offer
             if 'off' in item:
