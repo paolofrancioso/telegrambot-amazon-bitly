@@ -30,7 +30,7 @@ def parse_response(response):
 
                 # if contains price and/or offer price
                 if item_0.offers is not None and item_0.offers.listings[0] and item_0.offers.listings[
-                    0].offers is not None and item_0.offers.listings[0].price.savings is not None:
+                    0].price is not None and item_0.offers.listings[0].price.savings is not None:
                     if item_0.offers.listings[0].is_buy_box_winner is not None:
                         it_parsed["off"] = item_0.offers.listings[0].is_buy_box_winner
 
