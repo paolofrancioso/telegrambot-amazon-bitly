@@ -5,6 +5,7 @@ from paapi5_python_sdk.models.search_items_resource import SearchItemsResource
 from paapi5_python_sdk.rest import ApiException
 from response_parser import parse_response
 from consts import *
+from amazon_paapi import AmazonApi
 
 # function that search amazon products
 def search_items(keywords, search_index="All", item_page=1):
@@ -72,3 +73,13 @@ def search_items(keywords, search_index="All", item_page=1):
 
     except Exception as exception:
         print("Exception :", exception)
+
+# function that search amazon product by URL
+def search_item(pCode):
+    try:
+        amazon = AmazonApi(AMAZON_ACCESS_KEY, AMAZON_SECRET_KEY, PARTNER_TAG, COUNTRY_CODE)
+        res = parse_response(amazon.get_items([pCode]))
+        return res
+    
+    except Exception as exception:
+        print("Exception :", exception)    

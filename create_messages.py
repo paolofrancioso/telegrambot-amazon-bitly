@@ -6,8 +6,7 @@ if BITLY_ACTIVE == 1:
 
 # This function allow us to create an HTML message to send
 # You can edit all fields of message using HTML syntax
-
-def create_item_html(items):
+def create_item_html(items, forced:bool):
     response = []
     print(f'{5 * "*"} Creating post {5 * "*"}')
     
@@ -22,8 +21,9 @@ def create_item_html(items):
     # Iterate over items
     if items is not None:
         for item in items:
-            # If item has an active offer
-            if 'off' in item:
+            
+            # If item has an active offer or a forced message
+            if 'off' in item or forced == True:
 
                 # Creating buy button and Bitly Management
                 if BITLY_ACTIVE == 1:
@@ -38,7 +38,6 @@ def create_item_html(items):
                 reply_markup = InlineKeyboardMarkup(keyboard)
 
                 # Creating message body
-
                 html = ""
                 html += f"📚 <b>{item['title']}</b> \n"
 
@@ -59,6 +58,7 @@ def create_item_html(items):
 
                 response.append(html)
                 response.append(reply_markup)
+
                 
                 counter = counter + 1
                 if counter == NUMBER_OF_MESSAGES:

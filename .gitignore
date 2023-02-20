@@ -3,3 +3,5 @@ __pycache__
 *.egg
 consts.py
 nohup.out
+nohup_bot.out
+nohup_actions.out

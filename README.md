@@ -3,6 +3,21 @@
 This project is a Telegram Bot connected to a Telegram Channel that check Amazon offers and send them to your Channel.
 Original Project was from Samir Salman. This version adds a few options and has the Bitly functionalities embedded. Furthermore it increase performances limiting the number of calls to Amazon.
 
+## Major Update: 20th February 2023
+
+Now you can create a telegram group with this Bot as administrator and send him Amazon links. These will be translated in Offerings messages and they will be sent to the channel. For security reason it's necessary to set the SAFETY_CHAT_ID in consts.py. Please, add to your bot the followings commands (/setcommands):
+
+- gen - Generate a post directly from an Amazon Link
+- gid - Get your Chat ID
+
+Create a Group with your telegram and use /gid to get the CHAT ID. Add it as SAFETY_CHAT_ID parameter. Now you can use /gen <url> where <url> is an amazon link to a product.
+
+Run the new functionality as: ```python bot_actions.py``` or ```python3 bot_actions.py``` or ```nohup python3 bot_actions.py &```
+
+or execute the new script to kill/startup both the processes: ```sh run.sh```
+
+
+
 ## Requirements
 
 ### SCRIPT INSTALLER
@@ -83,7 +98,7 @@ The bot make all http requests to Amazon API at start, save a list of all result
 
 for all the activity time. When all results have been sent, it restart his loop.
 
-### **NOW YOU CAN SEARCH OVER MULTIPLE CATEGORIES** : _in `bot.py` you need to specify your categories and a list of keywords for each category. The corresponding variable is `categories`, it accept a dictionary like:_ 
+### **NOW YOU CAN SEARCH OVER MULTIPLE CATEGORIES** : _in `consts.py` you need to specify your categories and a list of keywords for each category. The corresponding variable is `categories`, it accept a dictionary like:_ 
 ```python
 {
   "1_CATEGORY_NAME":[LIST OF KEYWORD],

@@ -1,11 +1,10 @@
-from sre_parse import CATEGORIES
+#from sre_parse import CATEGORIES
 from typing import Dict, List
 import telegram
 from amazon_api import search_items
 from create_messages import create_item_html
 import time
 from datetime import datetime
-from itertools import chain
 import random
 from consts import *
 import logging
@@ -18,9 +17,9 @@ def is_active() -> bool:
     now = datetime.now().time()
     return MIN_HOUR < now.hour < MAX_HOUR
 
-def send_consecutive_messages(list_of_struct: List[str]) -> None:
-    for i in range(NUMBER_OF_MESSAGES):
-        row = i - 1
+def send_consecutive_messages(list_of_struct: List[str], number_of_messages = int) -> None:
+    for i in range(number_of_messages):
+
         pointer_1 = 0 + i * 2
         pointer_2 = 1 + i * 2
         bot.send_message(
@@ -31,7 +30,6 @@ def send_consecutive_messages(list_of_struct: List[str]) -> None:
         )
     return_counter = pointer_2 + 1    
     return list_of_struct[return_counter:]
-
 
 # run bot function
 def run_bot(bot: telegram.Bot, categories: Dict[str, List[str]]) -> None:
@@ -77,7 +75,7 @@ def run_bot(bot: telegram.Bot, categories: Dict[str, List[str]]) -> None:
             random.shuffle(items_full)
 
             # creating html message, you can find more information in create_messages.py
-            res = create_item_html(items_full)
+            res = create_item_html(items_full, False)
 
             # while we have items in our list
             while len(res) > min_result:
@@ -87,7 +85,7 @@ def run_bot(bot: telegram.Bot, categories: Dict[str, List[str]]) -> None:
                     try:
                         # Sending two consecutive messages
                         logging.info(f'{5 * "*"} Sending posts to channel {5 * "*"}')
-                        res = send_consecutive_messages(res)
+                        res = send_consecutive_messages(res, NUMBER_OF_MESSAGES)
 
                     except Exception as e:
                         logging.info(e)
@@ -108,9 +106,7 @@ def run_bot(bot: telegram.Bot, categories: Dict[str, List[str]]) -> None:
             logging.info(e)
             break
 
-
 if __name__ == "__main__":
     # Create the bot instance
     bot = telegram.Bot(token=TOKEN)
-    # running bot
     run_bot(bot=bot, categories=CATEGORIES)

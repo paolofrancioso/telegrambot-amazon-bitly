@@ -1,6 +1,10 @@
 # This function parses amazon response
 def parse_response(response):
-    items = response.search_result.items
+
+    if hasattr(response, 'search_result'):
+        items = response.search_result.items
+    else:
+        items = response
     res_items = []
     
     if items is not None:
