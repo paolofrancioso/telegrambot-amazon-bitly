@@ -47,10 +47,6 @@ python3 setup.py install
 cd ..
 ```
 
-## Additional Possible Setups if something doesn't work
-- pip install python-telegram-bot==13.14
-- pip install bitly-api-py3
-
 ## Project Structure
 
 The project is organized like follow:
