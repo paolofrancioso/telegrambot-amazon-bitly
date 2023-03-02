@@ -2,16 +2,13 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 import random
 from consts import *
 if BITLY_ACTIVE == 1:
-    import bitly_api
+    from bitlyshortener import Shortener
 
 # This function allow us to create an HTML message to send
 # You can edit all fields of message using HTML syntax
 def create_item_html(items, forced:bool):
     response = []
     print(f'{5 * "*"} Creating post {5 * "*"}')
-    
-    if BITLY_ACTIVE == 1:
-        connection = bitly_api.Connection(access_token=ACCESS_TOKEN)
 
     counter = 0
 
@@ -27,9 +24,12 @@ def create_item_html(items, forced:bool):
 
                 # Creating buy button and Bitly Management
                 if BITLY_ACTIVE == 1:
-                    shortlink = connection.shorten(uri = item['url'])
+                    tokens_pool = [ACCESS_TOKEN]
+                    shortener = Shortener(tokens=tokens_pool, max_cache_size=8192)
+                    shortlink_list = shortener.shorten_urls([item['url']])
+                    shortlink = shortlink_list[0]
                     keyboard = [
-                        [InlineKeyboardButton("🛒 Questo libro è in offerta 🛒", callback_data='buy', url=shortlink['url'])],
+                        [InlineKeyboardButton("🛒 Questo libro è in offerta 🛒", callback_data='buy', url=shortlink)],
                     ]
                 else:
                     keyboard = [
