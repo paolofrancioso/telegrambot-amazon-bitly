@@ -1,7 +1,7 @@
 # Amazon Offers Telegram Bot
 
-This project is a Telegram Bot connected to a Telegram Channel that check Amazon offers and send them to your Channel.
-Original Project was from Samir Salman. This version adds a few options and has the Bitly functionalities embedded. Furthermore it increase performances limiting the number of calls to Amazon.
+This project is a Telegram Bot connected to a Telegram Channel that checks Amazon offers and send them to your Channel.
+Original Project was from Samir Salman. This version adds a few options and has the Bitly functionalities embedded. Furthermore it increases performances limiting the number of calls to Amazon.
 
 ## Major Update: 20th February 2023
 
@@ -81,18 +81,18 @@ The bot is running in a while loop, you can define your favorite parameters for:
 
 
 
-The bot is active if the time is between **MIN_HOUR** and **MAX_HOUR** (_you can deactivate it during the night for example_)  , you can define these parameters in the code.
+The bot is active if the time is between **MIN_HOUR** and **MAX_HOUR** (_you can deactivate it during the night for example_), you can define these parameters in the code.
 
-The do a break for defined **PAUSE_MINUTE** after sent a message.
+The bot has a break for defined **PAUSE_MINUTE** after sending a message.
 
 You can also edit message body in ```create_messages.py```.
 
-The bot make all http requests to Amazon API at start, save a list of all results in RAM and as long as there are items in results list it:
+The bot performs all http requests to Amazon API at start, saves a list of all results in RAM and as long as there are items in results list it:
 1. SEND OFFER MESSAGE
 2. PAUSE FOR PAUSE_MINUTES
 3. SEND ANOTHER MESSAGE
 
-for all the activity time. When all results have been sent, it restart his loop.
+during the activity time. When all results have been sent, it restarts his loop.
 
 ### **NOW YOU CAN SEARCH OVER MULTIPLE CATEGORIES** : _in `consts.py` you need to specify your categories and a list of keywords for each category. The corresponding variable is `categories`, it accept a dictionary like:_ 
 ```python
@@ -101,7 +101,8 @@ for all the activity time. When all results have been sent, it restart his loop.
   "2_CATEGORY_NAME":[LIST OF KEYWORD]
 }
 ```
-  
+Important! Remember that currently Amazon supports only English Categories while you can use keywords in your language. Check Amazon API for info.
+
 ## Usage
 
 After cloning the repository, define all parameters in the code, install all packages and then start bot with command:
