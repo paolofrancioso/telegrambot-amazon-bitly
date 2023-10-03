@@ -3,6 +3,8 @@
 This project is a Telegram Bot connected to a Telegram Channel that checks Amazon offers and send them to your Channel.
 Original Project was from Samir Salman. This version adds a few options and has the Bitly functionalities embedded. Furthermore it increases performances limiting the number of calls to Amazon.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/paolofrancioso/telegrambot-amazon-bitly)
+
 ## Major Update: 20th February 2023
 
 Now you can create a telegram group with this Bot as administrator and send him Amazon links. These will be translated in Offerings messages and they will be sent to the channel. For security reason it's necessary to set the SAFETY_CHAT_ID in consts.py. Please, add to your bot the followings commands (/setcommands):

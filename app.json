@@ -1,0 +1,7 @@
+{
+    "name": "TelegramBot - Amazon - Bitly",
+    "description": "Yet Another Telegram Bot for Amazon with Bitly Integration",
+    "repository": "https://github.com/paolofrancioso/telegrambot-amazon-bitly",
+    "logo": "https://github.com/paolofrancioso/telegrambot-amazon-bitly/blob/main/img/hero-logo.png?raw=true",
+    "keywords": ["node", "telegram", "bot"]
+  }
